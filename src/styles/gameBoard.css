@@ -1,0 +1,62 @@
+.gameBoard_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #9059f6 0%, #ff2929 100%);
+    min-height: 100vh;
+}
+
+.gameBoard_currentPlayer {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.gameBoard_section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    margin-top: 1em;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.pion {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.pion1 {
+    background: green;
+}
+
+.pion2 {
+    background: red;
+}
+
+.pion3 {
+    background: blue;
+}
+
+.pion4 {
+    background: purple;
+}

@@ -1,0 +1,20 @@
+.playerCard_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    background: white;
+}
+
+.playerCard {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: rotateY 2s;
+}
+
+@keyframes rotateY {
+    0% { transform: rotateY( 0deg); }
+    100% { transform: rotateY( 360deg); }
+  }

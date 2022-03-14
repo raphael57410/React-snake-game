@@ -1,0 +1,7 @@
+.numberPlayer_select {
+    cursor: pointer;
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    outline: none;
+}
